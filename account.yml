@@ -10,8 +10,8 @@ spring:
      #profiles: cloud
 
 # HTTP Server
-#server:
-#  port: 55555   # HTTP (Tomcat) port
+server:
+  port: 55555   # HTTP (Tomcat) port
 
 eureka:
   client:
