@@ -1,9 +1,13 @@
 # Spring properties
+spring:
+  profiles:
+    active: cloud
+
 ---
 spring:
   application:
      name: accounts-server
-     profiles: default
+     profiles: cloud
 
 # HTTP Server
 server:
