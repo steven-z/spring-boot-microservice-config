@@ -2,7 +2,7 @@
 ---
 spring:
   application:
-     name: accounts-server  # Service registers under this name
+     name: accounts-service # Service registers under this name
      profiles: default
   freemarker:
     enabled: false           # Ignore Eureka dashboard FreeMarker templates
