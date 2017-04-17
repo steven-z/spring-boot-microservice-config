@@ -6,7 +6,7 @@
 ---
 spring:
   application:
-     name: accounts-server
+     name: account
      #profiles: cloud
 
 # HTTP Server
